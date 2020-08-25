@@ -1,0 +1,509 @@
+@media screen and (min-width: 767px) {
+  .header .logo {
+    margin-top: 15vh;
+  }
+}
+@media screen and (min-width: 767px) {
+  .header .heading {
+    font-size: 2rem;
+    margin-top: 24px;
+  }
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+body, p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #3f434a;
+}
+p {
+  margin: 0;
+}
+/* ヘッダー */
+.header {
+  background-image: url(../img/background.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  min-height: 660px;
+  padding-top: 48px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.logo {
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto 16px;
+  height: 116px;
+  width: 131px;
+}
+.heading {
+  color: #fff;
+  margin: 16px 6vmin 24px;
+}
+.buttons {
+  position: absolute;
+  bottom: 120px;
+  left: 39%;
+}
+.text {
+  color: #fff;
+  width: 350px;
+  font-size: 0.9rem;
+  bottom: 20px;
+  left: 37%;
+  position: absolute;
+}
+.text p {
+  color: #fff;
+}
+
+/* セクション１ */
+.items {
+  height: 78vh;
+  display: flex;
+}
+.item-1 {
+  background-image: url(../img/item-1.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: inherit;
+}
+.item-2 {
+  background-image: url(../img/item-2.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.item-3 {
+  background-image: url(../img/item-3.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.item-wrap {
+  padding: 68px 50px;
+}
+.item-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+.item-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 454;
+  letter-spacing: 1.4px;
+  margin-top: 12px;
+}
+
+/* セクション２ */
+.information {
+  display: flex;
+}
+.ad {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding-top: 66px;
+  width: 50%;
+  height: 64vh;
+}
+.ad-text-l {
+  font-size: 20px;
+}
+.ad-text-l-mr {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.ad-text-m {
+  font-size: 16px;
+}
+.ad-text-s {
+  font-size: 12px;
+}
+.ad-text-s-mr {
+  font-size: 12px;
+  margin-top: 36px;
+}
+.balloon1 {
+  position: relative;
+  display: inline-block;
+  background-color: #E67928;
+  margin-left: 40px;
+  padding: 7px 10px;
+  top: 8px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.balloon1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 58%;
+  margin-left: -15px;
+  border: 6px solid transparent;
+  border-top: 10px solid #E67928;
+}
+.balloon1 p {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 3px 7px;
+}
+.ad-img {
+  background-image: url(../img/bouquet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+  width: 210px;
+  height: 210px;
+}
+.calendar {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+  margin-top: 172px;
+  width: 50%;
+  max-height: 60vh;
+}
+.calendar-text {
+  font-size: 20px;
+}
+.calendar-img {
+  background-image: url(../img/calendar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 28px;
+  width: 180px;
+  height: 180px;
+}
+/* セクション3 */
+.qa {
+  display: flex;
+  align-items: center;
+  background-color: #ead5dc;
+  height: 88vh;
+  letter-spacing: 0.8px;
+}
+.qa-img {
+  background-image: url(../img/bg_flower.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto 0 auto 40px;
+  height: 56vh;
+  width: 100%;
+}
+.qa-space {
+  text-align: center;
+  padding-left: 20px;
+  height: 88vh;
+  width: 100%;
+}
+.qa-title {
+  font-size: 26px;
+  margin-top: 140px;
+  margin-bottom: 108px;
+}
+.qa-sub-title {
+  font-size: 23px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.qa-text {
+  display: inline-block;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+/* セクション４ */
+.flowerbase {
+  display: flex;
+  background-color: #e7e3df;
+  height: 98vh;
+  width: 100%;
+}
+.vase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 80px;
+}
+.vase-title {
+  font-size: 26px;
+  letter-spacing: 1.2px;
+}
+.off-item {
+  background-color: #fff;
+  height: 24px;
+  width: 120px;
+  padding-top: 2px;
+  padding-left: 6px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+.vase-text-center {
+  text-align: center;
+}
+.vase-text {
+  text-align: left;
+  font-size: 15px;
+}
+.vase-text-bottom {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+.vase-item-container {
+  width: 56.6%;
+  padding-left: 30px;
+}
+.vase-item {
+  display: flex;
+  justify-content: space-between;
+}
+.bell {
+  position: relative;
+  background-image: url(../img/bell.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 126px;
+}
+.moon {
+  position: relative;
+  background-image: url(../img/moon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 126px;
+}
+.candle {
+  position: relative;
+  background-image: url(../img/candle.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 126px;
+}
+.bell-text {
+  position: absolute;
+  font-size: 12.8px;
+  letter-spacing: 0.6px;
+  left: 36px;
+  bottom: 6px;
+}
+.moon-text {
+  position: absolute;
+  font-size: 12.8px;
+  letter-spacing: 0.6px;
+  left: 31px;
+  bottom: 6px;
+}
+.candle-text {
+  position: absolute;
+  font-size: 12.8px;
+  letter-spacing: 0.6px;
+  left: 26px;
+  bottom: 6px;
+}
+.vase-price-item {
+  display: flex;
+  width: 54%;
+  padding-left: 13px;
+  margin-top: 24px;
+}
+.period-box {
+  border: solid 1.6px #3f434a;
+  width: 26%;
+}
+.special-period {
+  font-weight: bold;
+  margin: 5px 8px 6px 15px;
+}
+.price-container {
+  width: 70%;
+  margin-left: 18px;
+}
+.vase-special-price {
+  font-size: 18px;
+}
+.vase-normal-price {
+  font-size: 13px;
+}
+.app-text {
+  justify-content: flex-start;
+  font-size: 13.2px;
+  width: 52.4%;
+  margin-top: 18px;
+}
+.vase-img {
+  background-image: url(../img/vase.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+/* セクション5 */
+.icon-container {
+  height: 62vh;
+}
+.icon-container-title-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+  padding-top: 92px;
+}
+.icon-container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 32px;
+}
+.icon-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-01-img {
+  background-image: url(../img/icon01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.icon-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-02-img {
+  background-image: url(../img/icon02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.icon-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-03-img {
+  background-image: url(../img/icon03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.icon-title {
+  font-size: 22px;
+}
+.icon-text-top {
+  font-size: 15px;
+  padding-top: 8px;
+}
+.icon-text {
+  font-size: 15px;
+}
+
+/* セクション6 */
+.app-container {
+  display: flex;
+  background-color: #efdfc5;
+  height: 50vh;
+  padding-left: 310px;
+}
+.app-img {
+  background-image: url(../img/download.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 38%;
+  padding-left: 180px;
+}
+.app-icon-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 62px;
+}
+.app-icon {
+  background-image: url(../img/logo-navy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  height: 116px;
+  width: 116px;
+  padding-bottom: 0;
+}
+.app-icon-text {
+  font-size: 16px;
+  width: 200px;
+  padding-top: 90px;
+  padding-left: 0;
+}
+
+/* フッター */
+.footer {
+  position: relative;
+  background-color: #3f434a;
+  color: #fff;
+  min-height: 164px;
+  height: 50.4vh;
+}
+.footer-menu {
+  display: flex;
+  width: 90%;
+}
+.footermenu-title {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 14px;
+  padding-top: 8vmin;
+}
+.footermenu-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.instagram {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.instagram-icon {
+  background-image: url(../img/icon_instagram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64px;
+  width: 64px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  opacity: 0.4;
+  font-size: 14px;
+  padding-top: 180px;
+}
