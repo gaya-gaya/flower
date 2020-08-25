@@ -24,7 +24,7 @@ p {
 }
 /* ヘッダー */
 .header {
-  background-image: url(../img/background.jpg);
+  background-image: url(background.jpg);
   background-position: center bottom;
   background-size: cover;
   box-sizing: border-box;
@@ -36,7 +36,7 @@ p {
   position: relative;
 }
 .logo {
-  background-image: url(../img/logo.png);
+  background-image: url(logo.png);
   background-position: center;
   background-size: contain;
   margin: 0 auto 16px;
@@ -70,18 +70,18 @@ p {
   display: flex;
 }
 .item-1 {
-  background-image: url(../img/item-1.jpg);
+  background-image: url(item-1.jpg);
   background-size: cover;
   width: 100%;
   padding: inherit;
 }
 .item-2 {
-  background-image: url(../img/item-2.jpg);
+  background-image: url(item-2.jpg);
   background-size: cover;
   width: 100%;
 }
 .item-3 {
-  background-image: url(../img/item-3.jpg);
+  background-image: url(item-3.jpg);
   background-size: cover;
   width: 100%;
 }
@@ -160,7 +160,7 @@ p {
   padding: 3px 7px;
 }
 .ad-img {
-  background-image: url(../img/bouquet.png);
+  background-image: url(bouquet.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -181,7 +181,7 @@ p {
   font-size: 20px;
 }
 .calendar-img {
-  background-image: url(../img/calendar.png);
+  background-image: url(calendar.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 28px;
@@ -197,7 +197,7 @@ p {
   letter-spacing: 0.8px;
 }
 .qa-img {
-  background-image: url(../img/bg_flower.jpg);
+  background-image: url(bg_flower.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto 0 auto 40px;
@@ -276,7 +276,7 @@ p {
 }
 .bell {
   position: relative;
-  background-image: url(../img/bell.jpg);
+  background-image: url(bell.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 110px;
@@ -284,7 +284,7 @@ p {
 }
 .moon {
   position: relative;
-  background-image: url(../img/moon.jpg);
+  background-image: url(moon.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 110px;
@@ -292,7 +292,7 @@ p {
 }
 .candle {
   position: relative;
-  background-image: url(../img/candle.jpg);
+  background-image: url(candle.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 110px;
@@ -350,7 +350,7 @@ p {
   margin-top: 18px;
 }
 .vase-img {
-  background-image: url(../img/vase.jpg);
+  background-image: url(vase.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -385,7 +385,7 @@ p {
   align-items: center;
 }
 .icon-01-img {
-  background-image: url(../img/icon01.png);
+  background-image: url(icon01.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 80px;
@@ -397,7 +397,7 @@ p {
   align-items: center;
 }
 .icon-02-img {
-  background-image: url(../img/icon02.png);
+  background-image: url(icon02.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 80px;
@@ -409,7 +409,7 @@ p {
   align-items: center;
 }
 .icon-03-img {
-  background-image: url(../img/icon03.png);
+  background-image: url(icon03.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 80px;
@@ -434,7 +434,7 @@ p {
   padding-left: 310px;
 }
 .app-img {
-  background-image: url(../img/download.jpg);
+  background-image: url(download.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -448,7 +448,7 @@ p {
   padding-top: 62px;
 }
 .app-icon {
-  background-image: url(../img/logo-navy.png);
+  background-image: url(logo-navy.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
@@ -493,7 +493,7 @@ p {
   right: 24px;
 }
 .instagram-icon {
-  background-image: url(../img/icon_instagram.png);
+  background-image: url(icon_instagram.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 64px;
